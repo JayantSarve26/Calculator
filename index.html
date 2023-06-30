@@ -3,7 +3,7 @@
     <head>
         <title>Calculator</title>
         <style>
-            .cal-body{background-color: #476b6b; height: 500px; width:250px;
+            .cal-body{background-color: #476b6b; height: 550px; width:250px;
             margin-left: auto; margin-right: auto; margin-top: 50px;
             border-radius: 15px; border: solid 2px black;
             box-shadow: 4px 4px 4px 4px  #85adad;
@@ -19,20 +19,86 @@
             .small-screen{ height: 18px;width:12px;
                 background-color: #141f1f;
                 border:1px solid black;}
-
-        </style>
+            .button-row{ justify-content:space-eventy;
+                         margin-top:10px}    
+            .cal-btn{font-size: 12px;height:30px; width:42px; margin:2px;
+                     border-radius: 5px; cursor: pointer;}
+            .second-row-btn{margin-left: 11px;}
+         </style>
     </head>
     <body>
         <div class="cal-body">
             <p class="brand-name"><b>Casio</b></p>
             <input text="text" class="cal-input-screen"/>
             <div class="small-screen-cal">
-                <div class="small-screen"></div>
+                <div class="small-screen "></div>
                 <div class="small-screen"></div>
                 <div class="small-screen"></div>
                 <div class="small-screen"></div>
             </div>
-            
-        </div>
+            <div class="button-row">
+                <button class="cal-btn">Shift</button>
+                <button class="cal-btn">Alpha</button>
+                <button class="cal-btn">Replay</button>
+                <button class="cal-btn"> Mode</button>
+                <button class="cal-btn">ON</button>
+            <div class="button-row">
+                    <button class="cal-btn  second-row-btn">CALC</button>
+                    <button class="cal-btn  second-row-btn">%</button>
+                    <button class="cal-btn  second-row-btn">log<sub>x</sub></button>
+                    <button class="cal-btn  second-row-btn">√x</button>
+            </div>
+            <div class="button-row">
+                <button class="cal-btn">X<sup>-1</sup></button>
+                <button class="cal-btn">(</button>
+                <button class="cal-btn">)</button>
+                <button class="cal-btn">log</button>
+                <button class="cal-btn">In</button>
+            </div>
+            <div class="button-row">
+                <button class="cal-btn">x<sup>2</sup></button>
+                <button class="cal-btn">sin</button>
+                <button class="cal-btn">cos</button>
+                <button class="cal-btn">tan</button>
+                <button class="cal-btn">hyp</button>
+            </div>
+            <div class="button-row">
+                <button class="cal-btn">x<sup>x</sup></button>
+                <button class="cal-btn">RCL</button>
+                <button class="cal-btn">ENG</button>
+                <button class="cal-btn">S<>D</button>
+                <button class="cal-btn">M+</button>
+            </div>
+            <div class="button-row">
+                <button class="cal-btn">7</button>
+                <button class="cal-btn">8</button>
+                <button class="cal-btn">9</button>
+                <button class="cal-btn">DEL</button>
+                <button class="cal-btn">AC</button>
+            </div>
+            <div class="button-row">
+                <div class="button-row">
+                    <button class="cal-btn">4</button>
+                    <button class="cal-btn">5</button>
+                    <button class="cal-btn">6</button>
+                    <button class="cal-btn">X</button>
+                    <button class="cal-btn">/</button>
+                </div>
+                <div class="button-row">
+                    <button class="cal-btn">1</button>
+                    <button class="cal-btn">2</button>
+                    <button class="cal-btn">3</button>
+                    <button class="cal-btn">+</button>
+                    <button class="cal-btn">-</button>
+                </div>
+                <div class="button-row">
+                    <button class="cal-btn">.</button>
+                    <button class="cal-btn">0</button>
+                    <button class="cal-btn">x10<sup>x</sup></button>
+                    <button class="cal-btn">Ans</button>
+                    <button class="cal-btn">=</button>
+                </div>
+            </div>
+            </div>
     </body>
 </html>
