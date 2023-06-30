@@ -3,19 +3,36 @@
     <head>
         <title>Calculator</title>
         <style>
-            .cal-body{background-color: #5c8a8a; height: 500px; width:250px;
+            .cal-body{background-color: #476b6b; height: 500px; width:250px;
             margin-left: auto; margin-right: auto; margin-top: 50px;
             border-radius: 15px; border: solid 2px black;
             box-shadow: 4px 4px 4px 4px  #85adad;
             padding: 10px; padding-bottom: 25px;}
             .brand-name{color: black; font-size: 26px;
             text-align: center; margin-top: 0px;}
+            .cal-input-screen{background-color: #141f1f; height:40px; width:240px;
+            display: block; margin-left: auto; margin-right: auto; margin-top: 10px;
+            font-size: 25px ; color: beige; margin-bottom: 13px;}
+            .small-screen-cal{display: flex;
+                justify-content: end;
+                margin-right:5px ;margin-top:0px;}
+            .small-screen{ height: 18px;width:12px;
+                background-color: #141f1f;
+                border:1px solid black;}
 
         </style>
     </head>
     <body>
         <div class="cal-body">
-            <p class="brand-name">Casio</p>
+            <p class="brand-name"><b>Casio</b></p>
+            <input text="text" class="cal-input-screen"/>
+            <div class="small-screen-cal">
+                <div class="small-screen"></div>
+                <div class="small-screen"></div>
+                <div class="small-screen"></div>
+                <div class="small-screen"></div>
+            </div>
+            
         </div>
     </body>
 </html>
